@@ -71,7 +71,7 @@ of the wrapped function, without permanently modifying it.
 """
 
 class Student:
-    college_name = "mohan Babu University"
+    college_name = "Mohan Babu University"
 
     def __init__(self,name,marks):
         self.name = name
@@ -243,3 +243,4 @@ class Calculator:
 obj = Calculator()
 print(obj.add(2, 3))
 print(obj.add(2, 3, 4))
+
